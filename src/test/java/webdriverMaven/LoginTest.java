@@ -29,6 +29,8 @@ public class LoginTest {
 		driver.findElement(By.xpath(".//*[@id='next']")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.id("Passwd")).sendKeys("kjdshag");
+		
+		//added new comments
 	}
 	@AfterSuite
 	public void tearDown(){
